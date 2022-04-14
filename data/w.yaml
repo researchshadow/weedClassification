@@ -1,0 +1,10 @@
+# train and val data , the label are searched automatically as per the name of image
+
+train: /mnt/disk1/object-detection/Santosh/yolov5/dataset/weed_dataset/images/train/
+#val: ../knotbolt_dataset/knotbolt8/augmented/images/test/
+val: /mnt/disk1/object-detection/Santosh/yolov5/dataset/weed_dataset/images/val
+# number of classes
+nc: 7
+
+# class names
+names: ['chine_apple','lantana', 'parkinsona' ,'Parthenium','Prickly' ,'rubber_vine','siam_weed']
